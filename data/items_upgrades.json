@@ -1,0 +1,31 @@
+{
+  "resources": [
+    { "id": "res_amber_raw", "name": "Âmbar Bruto", "rarity": "comum" },
+    { "id": "res_iron_ore", "name": "Minério de Ferro", "rarity": "comum" },
+    { "id": "res_blight_sample", "name": "Amostra do Véu", "rarity": "raro" }
+  ],
+  "upgrades": [
+    {
+      "id": "upg_blade_1",
+      "name": "Lâmina da Centelha +1",
+      "slot": "weapon",
+      "cost": { "res_amber_raw": 3, "res_iron_ore": 2 },
+      "bonus": { "attack": 6 }
+    },
+    {
+      "id": "upg_coat_1",
+      "name": "Manto do Vigia +1",
+      "slot": "armor",
+      "cost": { "res_iron_ore": 3, "res_blight_sample": 1 },
+      "bonus": { "defense": 5, "hp": 20 }
+    }
+  ],
+  "key_items": [
+    {
+      "id": "item_antidote_proto",
+      "name": "Antídoto do Véu",
+      "type": "story_key",
+      "description": "Neutraliza o agente tóxico misturado à névoa e revela sua origem artificial."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "characters": [
+    {
+      "id": "char_protagonist",
+      "name": "Kael",
+      "role": "Portador da Centelha",
+      "faction": "vigilia",
+      "base_stats": { "hp": 100, "stamina": 100, "attack": 15, "defense": 10 }
+    },
+    {
+      "id": "npc_grand_master",
+      "name": "Grã-Mestra Valéria",
+      "role": "Líder da Ordem da Vigília",
+      "faction": "vigilia",
+      "base_stats": { "hp": 250, "stamina": 120, "attack": 28, "defense": 22 }
+    },
+    {
+      "id": "npc_aldric",
+      "name": "Conselheiro Aldric",
+      "role": "Conselheiro e Mentor",
+      "faction": "conselho_dissidente",
+      "base_stats": { "hp": 120, "stamina": 90, "attack": 14, "defense": 12 }
+    },
+    {
+      "id": "npc_renegade_mage",
+      "name": "Mago Varen",
+      "role": "Pesquisador dos Núcleos de Âmbar",
+      "faction": "dissidente",
+      "base_stats": { "hp": 95, "stamina": 110, "attack": 20, "defense": 8 }
+    }
+  ]
+}

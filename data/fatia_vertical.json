@@ -1,0 +1,21 @@
+{
+  "dialogues": [
+    {
+      "id": "dlg_aldric_intro_01",
+      "speaker_id": "npc_aldric",
+      "lines": [
+        "Kael, os Faróis estão caindo rápido demais. A Grã-Mestra conta com você para reacender o Farol da Fronteira.",
+        "Mas mantenha os olhos abertos lá fora. Nem tudo o que parece óbvio sobre a névoa tem uma explicação simples."
+      ],
+      "triggers_quest": "quest_main_01"
+    },
+    {
+      "id": "dlg_ambush_ally_01",
+      "speaker_id": "npc_aldric",
+      "lines": [
+        "Apagadores à frente! Um batedor local vai cobrir sua retaguarda — assumam posição."
+      ],
+      "triggers_combat": "tactical_enc_01"
+    }
+  ]
+}

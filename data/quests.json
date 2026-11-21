@@ -1,0 +1,26 @@
+{
+  "quests": [
+    {
+      "id": "quest_main_01",
+      "title": "A Chama na Fronteira",
+      "type": "main",
+      "steps": [
+        "Falar com o Conselheiro Aldric na Vila de Cinza-Clara",
+        "Atravessar o Bosque da Fronteira e enfrentar a emboscada com o aliado",
+        "Explorar a Catacumba do Farol Caído e reacender o primeiro Farol"
+      ],
+      "rewards": { "res_amber_raw": 5, "coins": 50 }
+    },
+    {
+      "id": "quest_side_01",
+      "title": "Restos no Bosque",
+      "type": "side",
+      "optional": true,
+      "steps": [
+        "Coletar 3 unidades de Âmbar Bruto e 2 de Minério de Ferro no Bosque da Fronteira",
+        "Retornar à vila para realizar o primeiro upgrade"
+      ],
+      "rewards": { "res_blight_sample": 1, "coins": 30 }
+    }
+  ]
+}
